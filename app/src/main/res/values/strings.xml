@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">VenteVelosAndroid</string>
+    <string name="liste_produits">Liste Produits</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcomeMessage">Bienvenue dans l\'application VenteVelos</string>
+    <string name="titreFormulaire">Veuillez compléter votre commande</string>
+    <string name="hintPrenom">Prénom</string>
+    <string name="hintNom">Nom</string>
+    <string name="hintTelephone">Téléphone</string>
+    <string name="hintEmail">Email</string>
+    <string name="hintAdresse">Adresse</string>
+    <string name="hintVille">Ville</string>
+    <string name="hintEtat">État</string>
+    <string name="hintCodePostal">Code Postal</string>
+    <string name="submitText">Soumettre</string>
+    <string name="cancelText">Annuler</string>
+    <string name="hintQuantite">Quantité</string>
+    <string name="numeroText">Numero</string>
+    <string name="nomCategorieText">Nom Categorie</string>
+    <string name="numeroMarqueText">Numero</string>
+    <string name="nomMarqueText">Nom Marque</string>
+    <string name="numeroProduitText">Numero</string>
+    <string name="nomProduitText">Nom Produit</string>
+    <string name="marqueText">Marque:</string>
+    <string name="categorieText">Catégorie:</string>
+    <string name="prixDepartText">Prix départ:</string>
+    <string name="anneeModeleText">Année Modèle:</string>
+    <string name="commanderText">Commander</string>
+</resources>

@@ -1,0 +1,5 @@
+
+k	java:S117K"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÐ¦ ùÿÿÿÿ
+m	java:S116"SRename this field "code_zip" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àËþ¯øÿÿÿÿ
+c	java:S100G"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âÆŸÑ
+h	java:S100K"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÐ¦ ùÿÿÿÿ

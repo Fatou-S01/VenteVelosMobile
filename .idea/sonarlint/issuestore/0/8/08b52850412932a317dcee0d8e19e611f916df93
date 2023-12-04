@@ -1,0 +1,19 @@
+
+E
+java:S1604)"(Make this anonymous inner class a lambda(‘³’ª8‹‰ÖŒÃ1
+m
+java:S1874 "KRemove this use of "setOnNavigationItemSelectedListener"; it is deprecated.(“É…¾úÿÿÿÿ8Ë‰ÖŒÃ1
+e
+java:S1874("HRemove this use of "OnNavigationItemSelectedListener"; it is deprecated.(—­“ä8Î‰ÖŒÃ1
+D
+java:S1068"'Remove this unused "TAG" private field.(Ö—ÈÚ8Û‰ÖŒÃ1
+N
+java:S1068"1Remove this unused "listeProduits" private field.(’”ÎÎ8Û‰ÖŒÃ1
+R
+java:S1068"0Remove this unused "recyclerView" private field.(¿á© ıÿÿÿÿ8Û‰ÖŒÃ1
+N
+java:S1068"2Remove this unused "produitAdapter" private field.(öŞ28Û‰ÖŒÃ1
+Q
+java:S1068"/Remove this unused "currentPage" private field.(ûîŞØûÿÿÿÿ8Û‰ÖŒÃ1
+J
+java:S1068"-Remove this unused "isLoading" private field.(„€‰8Û‰ÖŒÃ1

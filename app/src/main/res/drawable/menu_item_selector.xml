@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/menu_item_selector.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:drawable="@color/white" />
+    <item android:drawable="@android:color/transparent" />
+</selector>
+
+<!--<selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--&lt;!&ndash; Text color for selected items &ndash;&gt;-->
+<!--<item android:color="@color/white" android:state_checked="true" />-->
+<!--&lt;!&ndash; Text color for non-selected items &ndash;&gt;-->
+<!--<item android:color="@color/white" />-->
+<!--</selector>-->

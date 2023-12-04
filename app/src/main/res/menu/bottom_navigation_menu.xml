@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/menu/bottom_navigation_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/navigation_home"
+            android:title="Home" />
+    <item
+            android:id="@+id/navigation_liste_produits"
+            android:title="Produits" />
+    <item
+            android:id="@+id/navigation_liste_categories"
+            android:title="Categories" />
+    <item
+            android:id="@+id/navigation_liste_marques"
+            android:title="Marques" />
+</menu>
