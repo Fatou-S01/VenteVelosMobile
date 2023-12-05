@@ -3,14 +3,9 @@ package sn.ept.git.dic2.ventevelosandroid.utils;
 import sn.ept.git.dic2.ventevelosandroid.entites.ArticleCommande;
 import sn.ept.git.dic2.ventevelosandroid.entites.Categorie;
 import sn.ept.git.dic2.ventevelosandroid.entites.Client;
-import sn.ept.git.dic2.ventevelosandroid.entites.Commande;
-import sn.ept.git.dic2.ventevelosandroid.entites.Employe;
 import sn.ept.git.dic2.ventevelosandroid.entites.Localisation;
-import sn.ept.git.dic2.ventevelosandroid.entites.Magasin;
-import sn.ept.git.dic2.ventevelosandroid.entites.Marque;
 import sn.ept.git.dic2.ventevelosandroid.entites.Produit;
 import sn.ept.git.dic2.ventevelosandroid.entites.Reponse;
-import sn.ept.git.dic2.ventevelosandroid.entites.Stock;
 
 import java.util.List;
 
@@ -85,18 +80,8 @@ public interface ApiInterface {
     Call<Reponse> deleteClient(@Path("id") Integer id);
 
     // Commandes
-    @Headers({
-            "Accept: application/json"
-    })
-    @GET("commandes")
-    Call<List<Commande>> getCommandes();
 
-    @Headers({
-            "Accept: application/json",
-            "Content-Type: application/json"
-    })
-    @PUT("commandes")
-    Call<Commande> addOrUpdateCommande(@Body Commande commande);
+
 
     @Headers({
             "Accept: application/json"
@@ -104,59 +89,12 @@ public interface ApiInterface {
     @DELETE("commandes/{numero}")
     Call<Reponse> deleteCommande(@Path("numero") Integer numero);
 
-    //Employes
-    @Headers({
-            "Accept: application/json"
-    })
-    @GET("employee")
-    Call<List<Employe>> getEmployes();
-
-    @Headers({
-            "Accept: application/json",
-            "Content-Type: application/json"
-    })
-    @PUT("employee")
-    Call<Employe> addOrUpdateEmploye(@Body Employe employe);
 
     @Headers({
             "Accept: application/json"
     })
     @DELETE("employee/{id}")
     Call<Reponse> deleteEmploye(@Path("id") Integer id);
-
-    //Magasins
-    @Headers({
-            "Accept: application/json"
-    })
-    @GET("magasins")
-    Call<List<Magasin>> getMagasins();
-
-    @Headers({
-            "Accept: application/json",
-            "Content-Type: application/json"
-    })
-    @PUT("magasins")
-    Call<Magasin> addOrUpdateMagasin(@Body Magasin magasin);
-
-    @Headers({
-            "Accept: application/json"
-    })
-    @DELETE("magasins/{id}")
-    Call<Reponse> deleteMagasin(@Path("id") Integer id);
-
-    //Marques
-    @Headers({
-            "Accept: application/json"
-    })
-    @GET("marques")
-    Call<List<Marque>> getMarques();
-
-    @Headers({
-            "Accept: application/json",
-            "Content-Type: application/json"
-    })
-    @PUT("marques")
-    Call<Marque> addOrUpdateMarque(@Body Marque marque);
 
     @Headers({
             "Accept: application/json"
@@ -185,24 +123,8 @@ public interface ApiInterface {
     Call<Reponse> deleteProduit(@Path("id") Integer id);
 
     //Stocks
-    @Headers({
-            "Accept: application/json"
-    })
-    @GET("stock")
-    Call<List<Stock>> getStocks();
 
-    @Headers({
-            "Accept: application/json",
-            "Content-Type: application/json"
-    })
-    @PUT("stocks")
-    Call<Stock> addOrUpdateStock(@Body Stock stock);
 
-    @Headers({
-            "Accept: application/json"
-    })
-    @DELETE("stocks/{magasin_id}/{produit_id}")
-    Call<Reponse> deleteStock(@Path("magasin_id") Integer magasin_id, @Path("produit_id") Integer produit_id);
 
     // Localisation
     @Headers({

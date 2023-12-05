@@ -43,6 +43,8 @@ public class ListProduits extends AppCompatActivity {
     Button btn1;
     ImageButton btn2;
 
+    TextView btn4;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,6 +53,7 @@ public class ListProduits extends AppCompatActivity {
         listView = findViewById(R.id.listView);
         btn1 = findViewById(R.id.addButton);
         btn2 = findViewById(R.id.backButton);
+        btn4 = findViewById(R.id.detailsprod );
         apiInterface = RetrofitClient.getRetrofitInstance().create(ApiInterface.class);
 
         broadcastReceiver = new BroadcastReceiver() {
@@ -77,7 +80,7 @@ public class ListProduits extends AppCompatActivity {
                                     ImageView trashcanIcon = view.findViewById(R.id.trashcanIcon);
 
                                     elementNameTextView.setText(item.getNom().substring(0, 10));
-                                    detailsTextView.setText("Categorie: " + item.getCategorieId().getNom() + " Marque: "+ item.getMarqueId().getNom());
+                                    detailsTextView.setText("Categorie: " + item.getCategorieId().getNom() );
 
                                     view.setOnClickListener(new View.OnClickListener() {
                                         @Override
@@ -114,6 +117,12 @@ public class ListProduits extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(ListProduits.this, AddProduit.class));
+            }
+        });
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(ListProduits.this, DetailsProduits.class));
             }
         });
 

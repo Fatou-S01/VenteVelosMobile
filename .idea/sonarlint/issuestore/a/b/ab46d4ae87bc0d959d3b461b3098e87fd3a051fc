@@ -1,13 +1,17 @@
 
-E
-java:S1874"/Remove this use of "execute"; it is deprecated.(ñŒãÃ
-L
-java:S1874"1Remove this use of "AsyncTask"; it is deprecated.(ÃÔ³‹üÿÿÿÿ
-e
-java:S1874#"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(üòàóøÿÿÿÿ
-W
-java:S11265"AReplace this if-then-else statement by a single return statement.(îÅ†Ã
-H
-java:S1128"-Remove this unused import 'android.util.Log'.(Ô¦Ø²øÿÿÿÿ
+y
+java:S1450"WRemove the "listener" field and declare it as a local variable in the relevant methods.(ş€Àáşÿÿÿÿ8±§ëÛÃ1
+N
+java:S1128"1Remove this unused import 'android.os.AsyncTask'.(À»¥—8‚ĞëÛÃ1
+O
+java:S1128"-Remove this unused import 'android.util.Log'.(Ô¦Ø²øÿÿÿÿ8‚ĞëÛÃ1
+R
+java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8ƒĞëÛÃ1
+T
+java:S1128"7Remove this unused import 'java.net.HttpURLConnection'.(¬¬˜­8ƒĞëÛÃ1
+K
+java:S1128	")Remove this unused import 'java.net.URL'.(ñìÁ„üÿÿÿÿ8ƒĞëÛÃ1
 @
 java:S1068"+Remove this unused "context" private field.(êİç
+N
+java:S1068",Remove this unused "listener" private field.(ş€Àáşÿÿÿÿ8·§ëÛÃ1

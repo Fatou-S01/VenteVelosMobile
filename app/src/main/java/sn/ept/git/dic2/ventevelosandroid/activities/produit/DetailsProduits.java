@@ -6,7 +6,6 @@ import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import sn.ept.git.dic2.ventevelosandroid.R;
 import sn.ept.git.dic2.ventevelosandroid.entites.Categorie;
 import sn.ept.git.dic2.ventevelosandroid.entites.Produit;
-import sn.ept.git.dic2.ventevelosandroid.entites.Marque;
 import sn.ept.git.dic2.ventevelosandroid.services.ApiService;
 import sn.ept.git.dic2.ventevelosandroid.utils.ApiInterface;
 import sn.ept.git.dic2.ventevelosandroid.utils.CustomSpinnerAdapter;
@@ -39,7 +38,6 @@ public class DetailsProduits extends AppCompatActivity {
 
     BroadcastReceiver broadcastReceiver;
     List<Categorie> categorieList;
-    List<Marque> marqueList;
     List<String> categorieStringList = new ArrayList<>();
     List<String> marqueStringList = new ArrayList<>();
     ApiInterface apiInterface;
@@ -55,15 +53,15 @@ public class DetailsProduits extends AppCompatActivity {
 
         apiInterface = RetrofitClient.getRetrofitInstance().create(ApiInterface.class);
         Produit selectedProduit = (Produit) getIntent().getSerializableExtra("selectedProduit");
-        edNom = findViewById(R.id.nomEditText);
+        /*edNom = findViewById(R.id.nomEditText);
         edAnnee = findViewById(R.id.anneeEditText);
-        edPrix = findViewById(R.id.prixEditText);
+        edPrix = findViewById(R.id.prixEditText);*/
         btn1 = findViewById(R.id.modifyButton);
         btn2 = findViewById(R.id.backButton);
 
-        edNom.setText(String.valueOf(selectedProduit.getNom()));
+       /* edNom.setText(String.valueOf(selectedProduit.getNom()));
         edAnnee.setText(String.valueOf(selectedProduit.getAnneeModel()));
-        edPrix.setText(String.valueOf(selectedProduit.getPrixDepart()));
+        edPrix.setText(String.valueOf(selectedProduit.getPrixDepart()));*/
 
          broadcastReceiver = new BroadcastReceiver() {
              @Override
@@ -100,19 +98,14 @@ public class DetailsProduits extends AppCompatActivity {
                          });
                      }
                  } else if (intent != null && "ACTION_MARQUES_LOADED".equals(intent.getAction())) {
-                     List<Marque> data = (List<Marque>) intent.getSerializableExtra("marqueList");
+                     List<Categorie> data = (List<Categorie>) intent.getSerializableExtra("marqueList");
                      if (data != null) {
-                         marqueList = data;
-                         for (Marque m: marqueList) {
-                             marqueStringList.add(m.getNom());
-                         }
                          Spinner marqueSpinner = findViewById(R.id.marqueSpinner);
                          CustomSpinnerAdapter spinnerAdapter = new CustomSpinnerAdapter(DetailsProduits.this, R.layout.spinner_item, marqueStringList);
                          spinnerAdapter.setDropDownViewResource(R.layout.spinner_item);
                          marqueSpinner.setAdapter(spinnerAdapter);
                          if (selectedProduit != null) {
-                             selectedMarquePosition= getMarquePosition(selectedProduit.getMarqueId().getNom());
-                             marqueSpinner.setSelection(selectedMarquePosition);
+
                          }
                          marqueSpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
                              @Override
@@ -140,16 +133,14 @@ public class DetailsProduits extends AppCompatActivity {
                 String nom=edNom.getText().toString();
                 Short annee=Short.parseShort(edAnnee.getText().toString());
                 BigDecimal prix=new BigDecimal(edPrix.getText().toString());
-                Marque marque=marqueList.get(selectedMarquePosition);
                 Categorie categorie=categorieList.get(selectedCategoriePosition);
-                if (nom==null||annee==null||prix==null||marque==null||categorie==null) {
+                if (nom==null||annee==null||prix==null||categorie==null) {
                     Toast.makeText(DetailsProduits.this, "Tous les champs sont obligatoires", Toast.LENGTH_SHORT);
                 } else {
                     if (selectedProduit != null) {
                         selectedProduit.setNom(nom);
                         selectedProduit.setAnneeModel(annee);
                         selectedProduit.setPrixDepart(prix);
-                        selectedProduit.setMarqueId(marque);
                         selectedProduit.setCategorieId(categorie);
                         updateProduit(selectedProduit);
                     }
@@ -182,12 +173,8 @@ public class DetailsProduits extends AppCompatActivity {
     }
 
     private int getMarquePosition(String s) {
-        if (s != null && marqueList != null) {
-            for (int i = 0; i < marqueList.size(); i++) {
-                if (s.equals(marqueList.get(i).getNom())) {
-                    return i;
-                }
-            }
+        if (s != null ) {
+
         }
         return 0;
     }

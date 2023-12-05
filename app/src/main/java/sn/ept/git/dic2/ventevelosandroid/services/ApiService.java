@@ -12,12 +12,8 @@ import sn.ept.git.dic2.ventevelosandroid.utils.RetrofitClient;
 import sn.ept.git.dic2.ventevelosandroid.entites.ArticleCommande;
 import sn.ept.git.dic2.ventevelosandroid.entites.Categorie;
 import sn.ept.git.dic2.ventevelosandroid.entites.Client;
-import sn.ept.git.dic2.ventevelosandroid.entites.Commande;
-import sn.ept.git.dic2.ventevelosandroid.entites.Employe;
-import sn.ept.git.dic2.ventevelosandroid.entites.Magasin;
-import sn.ept.git.dic2.ventevelosandroid.entites.Marque;
+
 import sn.ept.git.dic2.ventevelosandroid.entites.Produit;
-import sn.ept.git.dic2.ventevelosandroid.entites.Stock;
 
 import java.io.Serializable;
 import java.util.List;
@@ -57,23 +53,8 @@ public class ApiService extends IntentService {
                     case "getClients":
                         getClients();
                         break;
-                    case "getCommandes":
-                        getCommandes();
-                        break;
-                    case "getEmployes":
-                        getEmployes();
-                        break;
-                    case "getMagasins":
-                        getMagasins();
-                        break;
-                    case "getMarques":
-                        getMarques();
-                        break;
                     case "getProduits":
                         getProduits();
-                        break;
-                    case "getStocks":
-                        getStocks();
                         break;
                     default:
                         Log.d(TAG, "Action inconnue"+action);
@@ -150,97 +131,9 @@ public class ApiService extends IntentService {
         );
     }
 
-    private void getCommandes() {
-        Call<List<Commande>> call = apiInterface.getCommandes();
-        call.enqueue(
-                new Callback<List<Commande>>() {
-                    @Override
-                    public void onResponse(Call<List<Commande>> call, Response<List<Commande>> response) {
-                        if (response.isSuccessful()) {
-                            Intent broadcastIntent = new Intent("ACTION_COMMANDES_LOADED");
-                            broadcastIntent.putExtra("commandeList", (Serializable) response.body());
-                            LocalBroadcastManager.getInstance(getApplicationContext()).sendBroadcast(broadcastIntent);
-                        } else {
-                            Toast.makeText(getApplicationContext(), "La récupération des données a échoué", Toast.LENGTH_SHORT).show();
-                        }
-                    }
 
-                    @Override
-                    public void onFailure(Call<List<Commande>> call, Throwable t) {
-                        Log.d(TAG, "Error "+t);
-                    }
-                }
-        );
-    }
 
-    private void getEmployes() {
-        Call<List<Employe>> call = apiInterface.getEmployes();
-        call.enqueue(
-                new Callback<List<Employe>>() {
-                    @Override
-                    public void onResponse(Call<List<Employe>> call, Response<List<Employe>> response) {
-                        if (response.isSuccessful()) {
-                            Intent broadcastIntent = new Intent("ACTION_EMPLOYES_LOADED");
-                            broadcastIntent.putExtra("employeList", (Serializable) response.body());
-                            LocalBroadcastManager.getInstance(getApplicationContext()).sendBroadcast(broadcastIntent);
-                        } else {
-                            Toast.makeText(getApplicationContext(), "La récupération des données a échoué", Toast.LENGTH_SHORT).show();
-                        }
-                    }
 
-                    @Override
-                    public void onFailure(Call<List<Employe>> call, Throwable t) {
-                        Log.d(TAG, "Error "+t);
-                    }
-                }
-        );
-    }
-
-    private void getMagasins() {
-        Call<List<Magasin>> call = apiInterface.getMagasins();
-        call.enqueue(
-                new Callback<List<Magasin>>() {
-                    @Override
-                    public void onResponse(Call<List<Magasin>> call, Response<List<Magasin>> response) {
-                        if (response.isSuccessful()) {
-                            Intent broadcastIntent = new Intent("ACTION_MAGASINS_LOADED");
-                            broadcastIntent.putExtra("magasinList", (Serializable) response.body());
-                            LocalBroadcastManager.getInstance(getApplicationContext()).sendBroadcast(broadcastIntent);
-                        } else {
-                            Toast.makeText(getApplicationContext(),"La récupération des données a échoué", Toast.LENGTH_SHORT).show();
-                        }
-                    }
-
-                    @Override
-                    public void onFailure(Call<List<Magasin>> call, Throwable t) {
-                        Log.d(TAG, "Error "+t);
-                    }
-                }
-        );
-    }
-
-    private void getMarques() {
-        Call<List<Marque>> call = apiInterface.getMarques();
-        call.enqueue(
-                new Callback<List<Marque>>() {
-                    @Override
-                    public void onResponse(Call<List<Marque>> call, Response<List<Marque>> response) {
-                        if (response.isSuccessful()) {
-                            Intent broadcastIntent = new Intent("ACTION_MARQUES_LOADED");
-                            broadcastIntent.putExtra("marqueList", (Serializable) response.body());
-                            LocalBroadcastManager.getInstance(getApplicationContext()).sendBroadcast(broadcastIntent);
-                        } else {
-                            Toast.makeText(getApplicationContext(), "La récupérationdes des données a échoué", Toast.LENGTH_SHORT).show();
-                        }
-                    }
-
-                    @Override
-                    public void onFailure(Call<List<Marque>> call, Throwable t) {
-                        Log.d(TAG, "Error "+t);
-                    }
-                }
-        );
-    }
 
     private void getProduits() {
         Call<List<Produit>> call = apiInterface.getProduits();
@@ -265,26 +158,5 @@ public class ApiService extends IntentService {
         );
     }
 
-    private void getStocks() {
-        Call<List<Stock>> call = apiInterface.getStocks();
-        call.enqueue(
-                new Callback<List<Stock>>() {
-                    @Override
-                    public void onResponse(Call<List<Stock>> call, Response<List<Stock>> response) {
-                        if (response.isSuccessful()) {
-                            Intent broadcastIntent = new Intent("ACTION_STOCKS_LOADED");
-                            broadcastIntent.putExtra("stockList", (Serializable) response.body());
-                            LocalBroadcastManager.getInstance(getApplicationContext()).sendBroadcast(broadcastIntent);
-                        } else {
-                            Toast.makeText(getApplicationContext(), "La récupération des données a échoué", Toast.LENGTH_SHORT).show();
-                        }
-                    }
 
-                    @Override
-                    public void onFailure(Call<List<Stock>> call, Throwable t) {
-                        Log.d(TAG, "Error "+ t);
-                    }
-                }
-        );
-    }
 }

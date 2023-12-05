@@ -12,10 +12,13 @@
         <entry key="..\:/Users/ass_s/Stage/SIRC/JEE/app/src/main/res/layout/activity_add_categorie.xml" value="0.1" />
         <entry key="..\:/Users/ass_s/Stage/SIRC/JEE/app/src/main/res/layout/activity_add_client.xml" value="0.1" />
         <entry key="..\:/Users/ass_s/Stage/SIRC/JEE/app/src/main/res/layout/activity_details_categories.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/ass_s/Stage/SIRC/JEE/app/src/main/res/layout/activity_details_produits.xml" value="0.2" />
         <entry key="..\:/Users/ass_s/Stage/SIRC/JEE/app/src/main/res/layout/activity_formulaire.xml" value="0.25" />
-        <entry key="..\:/Users/ass_s/Stage/SIRC/JEE/app/src/main/res/layout/activity_home.xml" value="0.33" />
+        <entry key="..\:/Users/ass_s/Stage/SIRC/JEE/app/src/main/res/layout/activity_home.xml" value="0.18" />
         <entry key="..\:/Users/ass_s/Stage/SIRC/JEE/app/src/main/res/layout/activity_list_categories.xml" value="0.2" />
+        <entry key="..\:/Users/ass_s/Stage/SIRC/JEE/app/src/main/res/layout/activity_list_produits.xml" value="0.25" />
         <entry key="..\:/Users/ass_s/Stage/SIRC/JEE/app/src/main/res/layout/activity_main.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/ass_s/Stage/SIRC/JEE/app/src/main/res/layout/activity_notification.xml" value="0.1" />
         <entry key="..\:/Users/ass_s/Stage/SIRC/JEE/app/src/main/res/layout/dialog_quantity_input.xml" value="0.18541666666666667" />
         <entry key="..\:/Users/ass_s/Stage/SIRC/JEE/app/src/main/res/layout/fragment_home.xml" value="0.18541666666666667" />
         <entry key="..\:/Users/ass_s/Stage/SIRC/JEE/app/src/main/res/layout/fragment_liste_categories.xml" value="0.33" />
@@ -24,6 +27,7 @@
         <entry key="..\:/Users/ass_s/Stage/SIRC/JEE/app/src/main/res/layout/item_categorie.xml" value="0.33" />
         <entry key="..\:/Users/ass_s/Stage/SIRC/JEE/app/src/main/res/layout/item_marque.xml" value="0.18541666666666667" />
         <entry key="..\:/Users/ass_s/Stage/SIRC/JEE/app/src/main/res/layout/item_produit.xml" value="0.25" />
+        <entry key="..\:/Users/ass_s/Stage/SIRC/JEE/app/src/main/res/layout/list_tile_layout.xml" value="0.1" />
         <entry key="..\:/Users/ass_s/Stage/SIRC/JEE/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.2" />
       </map>
     </option>

@@ -10,7 +10,7 @@ public class ArticleCommande implements Serializable {
     private BigDecimal prixDepart;
     private BigDecimal remise;
     private Produit produitId;
-    private Commande commandeId;
+
 
     public ArticleCommande() {
     }
@@ -72,13 +72,6 @@ public class ArticleCommande implements Serializable {
         this.produitId = produitId;
     }
 
-    public Commande getCommandeId() {
-        return commandeId;
-    }
-
-    public void setCommandeId(Commande commandeId) {
-        this.commandeId = commandeId;
-    }
 
     @Override
     public boolean equals(Object o) {
@@ -101,7 +94,6 @@ public class ArticleCommande implements Serializable {
                 ", prixDepart=" + prixDepart +
                 ", remise=" + remise +
                 ", produitId=" + produitId +
-                ", commandeId=" + commandeId +
                 '}';
     }
 }

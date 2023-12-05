@@ -11,8 +11,7 @@ public class Produit implements Serializable {
     private short anneeModel;
     private BigDecimal prixDepart;
     private Categorie categorieId;
-    private Marque marqueId;
-    private Collection<Stock> stockCollection;
+
     private Collection<ArticleCommande> articleCommandeCollection;
 
     public Produit() {
@@ -69,22 +68,6 @@ public class Produit implements Serializable {
         this.categorieId = categorieId;
     }
 
-    public Marque getMarqueId() {
-        return marqueId;
-    }
-
-    public void setMarqueId(Marque marqueId) {
-        this.marqueId = marqueId;
-    }
-
-    public Collection<Stock> getStockCollection() {
-        return stockCollection;
-    }
-
-    public void setStockCollection(Collection<Stock> stockCollection) {
-        this.stockCollection = stockCollection;
-    }
-
     public Collection<ArticleCommande> getArticleCommandeCollection() {
         return articleCommandeCollection;
     }
@@ -121,7 +104,6 @@ public class Produit implements Serializable {
                 ", anneeModel=" + anneeModel +
                 ", prixDepart=" + prixDepart +
                 ", categorieId=" + categorieId +
-                ", marqueId=" + marqueId +
                 '}';
     }
 }

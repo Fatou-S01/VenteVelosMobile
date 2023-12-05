@@ -1,19 +1,27 @@
 
-D
-java:S1604‰"(Make this anonymous inner class a lambda(÷çäıÿÿÿÿ
-?
-java:S1604 "(Make this anonymous inner class a lambda(¤¥ˆñ
-_
-java:S1659."DDeclare "edAnnee" and all following declarations on a separate line.(ÄÜèíÿÿÿÿÿ
-O
-java:S16591"4Declare "selectedMarquePosition" on a separate line.(“©­şÿÿÿÿ
-m
-java:S37764"RRefactor this method to reduce its Cognitive Complexity from 44 to the 15 allowed.(¨Œşÿÿÿÿ
-œ
-java:S1186b"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×şÿÿÿÿ
+K
+java:S1604‚"(Make this anonymous inner class a lambda(÷çäıÿÿÿÿ8¢¼ŞÃ1
 F
-java:S1874["0Remove this use of "getColor"; it is deprecated.(Ö¦¹³
-
-java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×şÿÿÿÿ
-F
-java:S1874z"0Remove this use of "getColor"; it is deprecated.(Ö¦¹³
+java:S1604—"(Make this anonymous inner class a lambda(¤¥ˆñ8¢¼ŞÃ1
+f
+java:S1659,"DDeclare "edAnnee" and all following declarations on a separate line.(ÄÜèíÿÿÿÿÿ8ª¢¼ŞÃ1
+V
+java:S1659/"4Declare "selectedMarquePosition" on a separate line.(“©­şÿÿÿÿ8ª¢¼ŞÃ1
+t
+java:S37762"RRefactor this method to reduce its Cognitive Complexity from 40 to the 15 allowed.(¨Œşÿÿÿÿ8¯¢¼ŞÃ1
+^
+java:S18747"<Remove this use of "getSerializableExtra"; it is deprecated.(§™ÁÊıÿÿÿÿ8°¢¼ŞÃ1
+Y
+java:S1874F"<Remove this use of "getSerializableExtra"; it is deprecated.(Şª¯¿8³¢¼ŞÃ1
+£
+java:S1186`"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×şÿÿÿÿ8´¢¼ŞÃ1
+M
+java:S1874Y"0Remove this use of "getColor"; it is deprecated.(Ö¦¹³8µ¢¼ŞÃ1
+Y
+java:S1874e"<Remove this use of "getSerializableExtra"; it is deprecated.(ıÙÿ8¶¢¼ŞÃ1
+E	java:S108k")Either remove or fill this block of code.(Ñ×÷Ñ8¶¢¼ŞÃ1
+£
+java:S1186z"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×şÿÿÿÿ8¶¢¼ŞÃ1
+M
+java:S1874s"0Remove this use of "getColor"; it is deprecated.(Ö¦¹³8¸¢¼ŞÃ1
+K	java:S108°")Either remove or fill this block of code.(ëşÁûÿÿÿÿ8Ä¢¼ŞÃ1

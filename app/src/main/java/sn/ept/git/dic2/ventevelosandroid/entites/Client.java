@@ -7,7 +7,7 @@ import java.util.Objects;
 public class Client extends Personne {
 
     private Adresse adresse;
-    private Collection<Commande> commandeCollection;
+
 
 
     public Client() {
@@ -29,13 +29,6 @@ public class Client extends Personne {
         this.adresse = adresse;
     }
 
-    public Collection<Commande> getCommandeCollection() {
-        return commandeCollection;
-    }
-
-    public void setCommandeCollection(Collection<Commande> commandeCollection) {
-        this.commandeCollection = commandeCollection;
-    }
 
     @Override
     public boolean equals(Object o) {

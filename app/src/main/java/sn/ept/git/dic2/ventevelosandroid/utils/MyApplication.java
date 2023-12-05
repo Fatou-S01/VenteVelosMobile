@@ -17,18 +17,8 @@ public class MyApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        schedulePeriodicWorker();
+
     }
 
-    private void schedulePeriodicWorker() {
-        Constraints constraints = new Constraints.Builder()
-                .setRequiredNetworkType(NetworkType.CONNECTED)
-                .build();
-        PeriodicWorkRequest periodicWorkRequest = new PeriodicWorkRequest.Builder(
-                PeriodicWorker.class, WORK_INTERVAL_MINUTES, TimeUnit.MINUTES)
-                .setConstraints(constraints)
-                .build();
-        WorkManager workManager = WorkManager.getInstance(getApplicationContext());
-        workManager.enqueue(periodicWorkRequest);
-    }
+
 }

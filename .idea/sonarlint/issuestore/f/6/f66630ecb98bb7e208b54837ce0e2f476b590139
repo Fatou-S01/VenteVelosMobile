@@ -1,11 +1,13 @@
 
-C
-java:S1604R"(Make this anonymous inner class a lambda(÷¼¬âùÿÿÿÿ
-C
-java:S1604["(Make this anonymous inner class a lambda(éÖá‡şÿÿÿÿ
-C
-java:S1604q"(Make this anonymous inner class a lambda(÷çäıÿÿÿÿ
->
-java:S1604x"(Make this anonymous inner class a lambda(¤¥ˆñ
-m
-java:S3776/"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¨Œşÿÿÿÿ
+J
+java:S1604S"(Make this anonymous inner class a lambda(÷¼¬âùÿÿÿÿ8ñ¤æŞÃ1
+J
+java:S1604\"(Make this anonymous inner class a lambda(éÖá‡şÿÿÿÿ8ñ¤æŞÃ1
+J
+java:S1604r"(Make this anonymous inner class a lambda(÷çäıÿÿÿÿ8ò¤æŞÃ1
+E
+java:S1604y"(Make this anonymous inner class a lambda(¤¥ˆñ8ò¤æŞÃ1
+t
+java:S3776/"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¨Œşÿÿÿÿ8°¥æŞÃ1
+^
+java:S1874="<Remove this use of "getSerializableExtra"; it is deprecated.(ƒ’Ëıúÿÿÿÿ8¶¥æŞÃ1

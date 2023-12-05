@@ -1,15 +1,15 @@
 
-b
-java:S1192|"GDefine a constant instead of duplicating this literal "Error " 8 times.(Á×ÄŞùÿÿÿÿ
-…
-java:S1192`"jDefine a constant instead of duplicating this literal "La rÃ©cupÃ©ration des donnÃ©es a Ã©chouÃ©" 8 times.(õÂ®Ïıÿÿÿÿ
+i
+java:S1192i"GDefine a constant instead of duplicating this literal "Error " 3 times.(Á×ÄŞùÿÿÿÿ8æœ‰ŞÃ1
+Œ
+java:S1192M"jDefine a constant instead of duplicating this literal "La rÃ©cupÃ©ration des donnÃ©es a Ã©chouÃ©" 4 times.(õÂ®Ïıÿÿÿÿ8æœ‰ŞÃ1
 _
-java:S1192#"IUse already-defined constant 'TAG' instead of duplicating its value here.(úÜ¤­
+java:S1192"IUse already-defined constant 'TAG' instead of duplicating its value here.(úÜ¤­
 P
-java:S1874"5Remove this use of "IntentService"; it is deprecated.(ã­åûÿÿÿÿ
+java:S1874"5Remove this use of "IntentService"; it is deprecated.(ã­åûÿÿÿÿ
 D
-java:S1874#".Remove this use of "<init>"; it is deprecated.(úÜ¤­
+java:S1874".Remove this use of "<init>"; it is deprecated.(úÜ¤­
 `
-java:S1874'"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(Î¢È
+java:S1874#"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(Î¢È
 F
-java:S1874("0Remove this use of "onCreate"; it is deprecated.(ã¹“
+java:S1874$"0Remove this use of "onCreate"; it is deprecated.(ã¹“

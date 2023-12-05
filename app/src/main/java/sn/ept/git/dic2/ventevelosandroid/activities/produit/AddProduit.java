@@ -6,7 +6,6 @@ import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import sn.ept.git.dic2.ventevelosandroid.R;
 import sn.ept.git.dic2.ventevelosandroid.entites.Categorie;
 import sn.ept.git.dic2.ventevelosandroid.entites.Produit;
-import sn.ept.git.dic2.ventevelosandroid.entites.Marque;
 import sn.ept.git.dic2.ventevelosandroid.services.ApiService;
 import sn.ept.git.dic2.ventevelosandroid.utils.ApiInterface;
 import sn.ept.git.dic2.ventevelosandroid.utils.CustomSpinnerAdapter;
@@ -40,7 +39,6 @@ public class AddProduit extends AppCompatActivity {
 
     BroadcastReceiver broadcastReceiver;
     List<Categorie> categorieList;
-    List<Marque> marqueList;
     List<String> categorieStringList = new ArrayList<>();
     List<String> marqueStringList = new ArrayList<>();
     ApiInterface apiInterface;
@@ -93,12 +91,9 @@ public class AddProduit extends AppCompatActivity {
                         });
                     }
                 } else if (intent != null && "ACTION_MARQUES_LOADED".equals(intent.getAction())) {
-                    List<Marque> data = (List<Marque>) intent.getSerializableExtra("marqueList");
+                    List<Categorie> data = (List<Categorie>) intent.getSerializableExtra("marqueList");
                     if (data != null) {
-                        marqueList = data;
-                        for (Marque m: marqueList) {
-                            marqueStringList.add(m.getNom());
-                        }
+
                         Spinner marqueSpinner = findViewById(R.id.marqueSpinner);
                         CustomSpinnerAdapter spinnerAdapter = new CustomSpinnerAdapter(AddProduit.this, R.layout.spinner_item, marqueStringList);
                         spinnerAdapter.setDropDownViewResource(R.layout.spinner_item);
@@ -130,16 +125,14 @@ public class AddProduit extends AppCompatActivity {
                 String nom=edNom.getText().toString();
                 Short annee=Short.parseShort(edAnnee.getText().toString());
                 BigDecimal prix=new BigDecimal(edPrix.getText().toString());
-                Marque marque=marqueList.get(selectedMarquePosition);
                 Categorie categorie=categorieList.get(selectedCategoriePosition);
-                if (nom==null||annee==null||prix==null||marque==null||categorie==null) {
+                if (nom==null||annee==null||prix==null||categorie==null) {
                     Toast.makeText(AddProduit.this, "Tous les champs sont obligatoires", Toast.LENGTH_SHORT);
                 } else {
                     Produit produit = new Produit();
                     produit.setNom(nom);
                     produit.setAnneeModel(annee);
                     produit.setPrixDepart(prix);
-                    produit.setMarqueId(marque);
                     produit.setCategorieId(categorie);
                     addProduit(produit);
                 }
@@ -171,12 +164,7 @@ public class AddProduit extends AppCompatActivity {
     }
 
     private int getMarquePosition(String s) {
-        if (s != null && marqueList != null) {
-            for (int i = 0; i < marqueList.size(); i++) {
-                if (s.equals(marqueList.get(i).getNom())) {
-                    return i;
-                }
-            }
+        if (s != null ) {
         }
         return 0;
     }

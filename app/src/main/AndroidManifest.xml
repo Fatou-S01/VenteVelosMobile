@@ -112,10 +112,6 @@
         <service
                 android:name=".services.ApiService"
                 android:exported="false" />
-        <service
-                android:name=".services.StockService"
-                android:exported="false"
-                android:stopWithTask="false" />
 
         <activity
                 android:name=".activities.HomeActivity"

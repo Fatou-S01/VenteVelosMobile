@@ -16,17 +16,12 @@ import sn.ept.git.dic2.ventevelosandroid.R;
 import sn.ept.git.dic2.ventevelosandroid.activities.article.ListArticles;
 import sn.ept.git.dic2.ventevelosandroid.activities.categorie.ListCategories;
 import sn.ept.git.dic2.ventevelosandroid.activities.client.ListClients;
-import sn.ept.git.dic2.ventevelosandroid.activities.commande.ListCommandes;
-import sn.ept.git.dic2.ventevelosandroid.activities.employe.ListEmployes;
-import sn.ept.git.dic2.ventevelosandroid.activities.magasin.ListMagasins;
-import sn.ept.git.dic2.ventevelosandroid.activities.marque.ListMarques;
-import sn.ept.git.dic2.ventevelosandroid.activities.notification.NotificationActivity;
+
 import sn.ept.git.dic2.ventevelosandroid.activities.produit.ListProduits;
-import sn.ept.git.dic2.ventevelosandroid.activities.stock.ListStocks;
 
 public class HomeActivity extends AppCompatActivity {
 
-    public CardView article,categorie,client,commande,employe,magasin,marque,produit,stock,notif;
+    public CardView article,categorie,client,commande,produit;
     private static final int LOCATION_PERMISSION_REQUEST_CODE = 100;
 
 
@@ -38,13 +33,7 @@ public class HomeActivity extends AppCompatActivity {
         article = findViewById(R.id.cardArticleCommande);
         categorie = findViewById(R.id.cardCategorie);
         client = findViewById(R.id.cardClient);
-        commande = findViewById(R.id.cardCommande);
-        employe = findViewById(R.id.cardEmploye);
-        magasin = findViewById(R.id.cardMagasin);
-        marque = findViewById(R.id.cardMarque);
         produit = findViewById(R.id.cardProduit);
-        stock = findViewById(R.id.cardStock);
-        notif = findViewById(R.id.cardNotif);
 
         article.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -67,33 +56,8 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
-        commande.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(HomeActivity.this, ListCommandes.class));
-            }
-        });
 
-        employe.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(HomeActivity.this, ListEmployes.class));
-            }
-        });
 
-        magasin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(HomeActivity.this, ListMagasins.class));
-            }
-        });
-
-        marque.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(HomeActivity.this, ListMarques.class));
-            }
-        });
 
         produit.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -102,19 +66,7 @@ public class HomeActivity extends AppCompatActivity {
             }
         });
 
-        stock.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(HomeActivity.this, ListStocks.class));
-            }
-        });
 
-        notif.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(HomeActivity.this, NotificationActivity.class));
-            }
-        });
 
         requestLocationPermission();
     }

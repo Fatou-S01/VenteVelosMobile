@@ -9,3 +9,5 @@ java:S1604r"(Make this anonymous inner class a lambda(÷çžäýÿÿÿÿ
 java:S1604y"(Make this anonymous inner class a lambda(¤¥ˆñ
 m
 java:S37761"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ž¨Œþÿÿÿÿ
+Y
+java:S1874>"<Remove this use of "getSerializableExtra"; it is deprecated.(Þª¯¿8ÊÁ“ÐÃ1

@@ -1,19 +1,24 @@
 
-C
-java:S1604"(Make this anonymous inner class a lambda(÷çäıÿÿÿÿ
-?
-java:S1604•"(Make this anonymous inner class a lambda(¤¥ˆñ
-_
-java:S1659/"DDeclare "edAnnee" and all following declarations on a separate line.(ÄÜèíÿÿÿÿÿ
-O
-java:S16592"4Declare "selectedMarquePosition" on a separate line.(“©­şÿÿÿÿ
-m
-java:S37765"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(¨Œşÿÿÿÿ
-œ
-java:S1186["€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×şÿÿÿÿ
+J
+java:S1604z"(Make this anonymous inner class a lambda(÷çäıÿÿÿÿ8Ë®ŞÃ1
 F
-java:S1874T"0Remove this use of "getColor"; it is deprecated.(Ö¦¹³
-œ
-java:S1186w"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×şÿÿÿÿ
-F
-java:S1874p"0Remove this use of "getColor"; it is deprecated.(Ö¦¹³
+java:S1604"(Make this anonymous inner class a lambda(¤¥ˆñ8¡Ë®ŞÃ1
+f
+java:S1659-"DDeclare "edAnnee" and all following declarations on a separate line.(ÄÜèíÿÿÿÿÿ8àÕ®ŞÃ1
+V
+java:S16590"4Declare "selectedMarquePosition" on a separate line.(“©­şÿÿÿÿ8áÕ®ŞÃ1
+t
+java:S37763"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(¨Œşÿÿÿÿ8ëÕ®ŞÃ1
+Y
+java:S1874B"<Remove this use of "getSerializableExtra"; it is deprecated.(Şª¯¿8ğÕ®ŞÃ1
+£
+java:S1186Y"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×şÿÿÿÿ8ôÕ®ŞÃ1
+M
+java:S1874R"0Remove this use of "getColor"; it is deprecated.(Ö¦¹³8öÕ®ŞÃ1
+Y
+java:S1874^"<Remove this use of "getSerializableExtra"; it is deprecated.(ıÙÿ8øÕ®ŞÃ1
+£
+java:S1186r"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×şÿÿÿÿ8ùÕ®ŞÃ1
+M
+java:S1874k"0Remove this use of "getColor"; it is deprecated.(Ö¦¹³8…Ö®ŞÃ1
+K	java:S108§")Either remove or fill this block of code.(ëşÁûÿÿÿÿ8’›°ŞÃ1
