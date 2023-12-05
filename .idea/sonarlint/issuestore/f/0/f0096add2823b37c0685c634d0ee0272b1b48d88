@@ -1,0 +1,41 @@
+
+b
+java:S11923"LDefine a constant instead of duplicating this literal "produit_id" 11 times.(ŒóÙ€
+c
+java:S11923"MDefine a constant instead of duplicating this literal "nom_magasin" 10 times.(ŒóÙ€
+z
+java:S1192€"^Define a constant instead of duplicating this literal "produit_id=? and magasin_id=?" 3 times.( ñíñşÿÿÿÿ
+c
+java:S11923"MDefine a constant instead of duplicating this literal "nom_produit" 10 times.(ŒóÙ€
+d
+java:S1192Q"NDefine a constant instead of duplicating this literal "stocks_delete" 3 times.(é«ëä
+]
+java:S11925"GDefine a constant instead of duplicating this literal "stocks" 6 times.(Âô­ì
+b
+java:S11923"LDefine a constant instead of duplicating this literal "magasin_id" 11 times.(ŒóÙ€
+m
+java:S1192c"RDefine a constant instead of duplicating this literal "stocks_update_add" 4 times.(âÅæƒùÿÿÿÿ
+`
+java:S11923"JDefine a constant instead of duplicating this literal "quantite" 11 times.(ŒóÙ€
+k	java:S1179"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºøËƒşÿÿÿÿ
+k	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áÉ©›şÿÿÿÿ
+f	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«àå…
+k	java:S117<"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø¹·Ëúÿÿÿÿ
+k	java:S117T"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºøËƒşÿÿÿÿ
+k	java:S117U"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áÉ©›şÿÿÿÿ
+k	java:S117g"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºøËƒşÿÿÿÿ
+k	java:S117h"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áÉ©›şÿÿÿÿ
+f	java:S117i"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«àå…
+k	java:S117j"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø¹·Ëúÿÿÿÿ
+g	java:S117Õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«àå…
+l	java:S117Ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ø¹·Ëúÿÿÿÿ
+8
+java:S1643Ø"Use a StringBuilder instead.(Ø‡Åÿÿÿÿÿ
+œ
+java:S1186-"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¸†£êıÿÿÿÿ
+E
+java:S1197|"*Move the array designators [] to the type.(µñì¯ùÿÿÿÿ
+F
+java:S1197…"*Move the array designators [] to the type.(µñì¯ùÿÿÿÿ
+F
+java:S1197¬"*Move the array designators [] to the type.(µñì¯ùÿÿÿÿ

@@ -1,0 +1,48 @@
+
+E
+java:S16041"(Make this anonymous inner class a lambda(Ùê¾ÿ8Õ×…ÉÃ1
+J
+java:S16048"(Make this anonymous inner class a lambda(«õ‘³ûÿÿÿÿ8Õ×…ÉÃ1
+J
+java:S1604?"(Make this anonymous inner class a lambda(¯ÒÕ‚ıÿÿÿÿ8Õ×…ÉÃ1
+D
+java:S1604F"(Make this anonymous inner class a lambda( ¢Ô88Ö×…ÉÃ1
+E
+java:S1604M"(Make this anonymous inner class a lambda(¬ş”õ8Ö×…ÉÃ1
+J
+java:S1604T"(Make this anonymous inner class a lambda(ÿÓùùşÿÿÿÿ8Ö×…ÉÃ1
+E
+java:S1604["(Make this anonymous inner class a lambda(ˆÊšÌ8Ö×…ÉÃ1
+J
+java:S1604b"(Make this anonymous inner class a lambda(ç¦êÀûÿÿÿÿ8Ö×…ÉÃ1
+E
+java:S1604i"(Make this anonymous inner class a lambda(³¸µ„8Ö×…ÉÃ1
+D
+java:S1604p"(Make this anonymous inner class a lambda(ò÷†]8Ö×…ÉÃ1
+u
+java:S1104"SMake article a static final constant or non-public and provide accessors if needed.(©á¿‘ÿÿÿÿÿ8Ø×…ÉÃ1
+w
+java:S1104"UMake categorie a static final constant or non-public and provide accessors if needed.(©á¿‘ÿÿÿÿÿ8Ø×…ÉÃ1
+t
+java:S1104"RMake client a static final constant or non-public and provide accessors if needed.(©á¿‘ÿÿÿÿÿ8Ø×…ÉÃ1
+v
+java:S1104"TMake commande a static final constant or non-public and provide accessors if needed.(©á¿‘ÿÿÿÿÿ8Ø×…ÉÃ1
+u
+java:S1104"SMake employe a static final constant or non-public and provide accessors if needed.(©á¿‘ÿÿÿÿÿ8Ø×…ÉÃ1
+u
+java:S1104"SMake magasin a static final constant or non-public and provide accessors if needed.(©á¿‘ÿÿÿÿÿ8Ø×…ÉÃ1
+t
+java:S1104"RMake marque a static final constant or non-public and provide accessors if needed.(©á¿‘ÿÿÿÿÿ8Ø×…ÉÃ1
+u
+java:S1104"SMake produit a static final constant or non-public and provide accessors if needed.(©á¿‘ÿÿÿÿÿ8Ø×…ÉÃ1
+s
+java:S1104"QMake stock a static final constant or non-public and provide accessors if needed.(©á¿‘ÿÿÿÿÿ8Ù×…ÉÃ1
+s
+java:S1104"QMake notif a static final constant or non-public and provide accessors if needed.(©á¿‘ÿÿÿÿÿ8Ù×…ÉÃ1
+h
+java:S1659"FDeclare "categorie" and all following declarations on a separate line.(©á¿‘ÿÿÿÿÿ8ş×…ÉÃ1
+X	java:S125*"<This block of commented-out lines of code should be removed.(ÀóùŒ8­«ùÍÃ1
+y
+java:S3252{"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(ÇªÒ½ıÿÿÿÿ8—Ø…ÉÃ1
+m
+java:S1874„"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(Ó»×¶şÿÿÿÿ8˜Ø…ÉÃ1

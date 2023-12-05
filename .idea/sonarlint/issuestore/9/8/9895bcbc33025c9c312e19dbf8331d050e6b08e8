@@ -1,0 +1,15 @@
+
+a
+java:S2184"FCast one of the operands of this multiplication operation to a "long".(„¾üıÿÿÿÿ
+r
+java:S3252<"WUse static access with "androidx.core.content.ContextCompat" for "checkSelfPermission".(ÇªÒ½ıÿÿÿÿ
+T
+java:S1874>"7Remove this use of "LocationRequest"; it is deprecated.(øğÜ³8Íû³ÉÃ1
+U
+java:S1874?"3Remove this use of "setInterval"; it is deprecated.(Óçÿÿÿÿÿ8Íû³ÉÃ1
+\
+java:S1874@":Remove this use of "setFastestInterval"; it is deprecated.( ™Æşÿÿÿÿ8Íû³ÉÃ1
+U
+java:S1874A"3Remove this use of "setPriority"; it is deprecated.(¿é½øÿÿÿÿ8Íû³ÉÃ1
+`
+java:S1874A">Remove this use of "PRIORITY_HIGH_ACCURACY"; it is deprecated.(¿é½øÿÿÿÿ8Íû³ÉÃ1

@@ -1,0 +1,13 @@
+
+E
+java:S1874"/Remove this use of "execute"; it is deprecated.(ñŒãÃ
+L
+java:S1874"1Remove this use of "AsyncTask"; it is deprecated.(ÃÔ³‹üÿÿÿÿ
+e
+java:S1874#"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(üòàóøÿÿÿÿ
+W
+java:S11265"AReplace this if-then-else statement by a single return statement.(îÅ†Ã
+H
+java:S1128"-Remove this unused import 'android.util.Log'.(Ô¦Ø²øÿÿÿÿ
+@
+java:S1068"+Remove this unused "context" private field.(êİç

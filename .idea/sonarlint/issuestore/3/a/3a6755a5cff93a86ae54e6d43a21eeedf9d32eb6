@@ -1,0 +1,13 @@
+
+h
+java:S1192["MDefine a constant instead of duplicating this literal "StockService" 5 times.(ÒÇ­¥ûÿÿÿÿ
+_
+java:S11929"IDefine a constant instead of duplicating this literal "BikeShop" 3 times.(³½Õï
+R
+java:S4973V"<Strings and Boxed types should be compared using "equals()".(âç¦Ç
+v
+java:S1450("`Remove the "connectionManager" field and declare it as a local variable in the relevant methods.(…“ìÀ
+M
+java:S1117:"7Rename "msg" which hides the field declared at line 41.(àˆ‰
+d
+java:S4042n"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(ˆÂ×

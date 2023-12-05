@@ -1,0 +1,19 @@
+
+C
+java:S1604"(Make this anonymous inner class a lambda(÷çäıÿÿÿÿ
+?
+java:S1604•"(Make this anonymous inner class a lambda(¤¥ˆñ
+_
+java:S1659/"DDeclare "edAnnee" and all following declarations on a separate line.(ÄÜèíÿÿÿÿÿ
+O
+java:S16592"4Declare "selectedMarquePosition" on a separate line.(“©­şÿÿÿÿ
+m
+java:S37765"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(¨Œşÿÿÿÿ
+œ
+java:S1186["€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×şÿÿÿÿ
+F
+java:S1874T"0Remove this use of "getColor"; it is deprecated.(Ö¦¹³
+œ
+java:S1186w"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×şÿÿÿÿ
+F
+java:S1874p"0Remove this use of "getColor"; it is deprecated.(Ö¦¹³
